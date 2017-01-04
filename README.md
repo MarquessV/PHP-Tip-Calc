@@ -4,10 +4,11 @@
 
 Submitted by: Marquess Valdez
 
-Time Spent: **3** hours spent in total.
+Time Spent: **4** hours spent in total.
 
 ## User Stories
 
+A user can enter their bill subtotal, desired tip percentage, and party size then easily calculate the tip amount and grand total of their bill for themselves and any party member. 
 
 The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and submit the form to see the tip and total values.
@@ -18,20 +19,22 @@ The following **required** functionality is complete:
 * [x] Submitted form values are retained when errors or results are shown.
 
 The following **optional** features are implemented:
-* [ ] Add support for custom tip percentage
-* [ ] Add support for splitting the tip and total
+* [x] Add support for custom tip percentage
+* [x] Add support for splitting the tip and total
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/2Y1vv1l.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/LhGYoPf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 This is my first experience ever with PHP. Because of this there was a lot of time spent actually getting things to display the way I wanted to. 
+
+For the custom tip percentage functionality I originally started with a radio button and had it fully functioning. However, from a users perspective I think it makes more sense to have a checkbox. A possible alternative would be to use Javascript to make the static and custom tip percentages appear mutually exclusive.
 
 ## License
 
